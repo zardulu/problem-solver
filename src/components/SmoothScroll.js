@@ -59,16 +59,16 @@ const SmoothScroll = () => {
         >
           <div className="thumbnails">
             <div className="thumbnail">
-              <div className="text-white items-center flex text-center justify-center relative">
+              <div className="text-white items-center flex text-center justify-center relative font-display">
                 <div className="mt-40 sm:mt-20 md:mt-40 lg:mt-60 xl:mt-60">
-                  <div className="text-4xl sm:text-5xl md:text-7xl flex flex-row mb-5">PROBLEM&nbsp;<div className=" text-yellow-300">SOLVER</div></div>
+                  <div className="text-4xl sm:text-5xl md:text-7xl flex flex-row mb-5">PROBLEM&nbsp;<div className=" text-lime-400">SOLVER</div></div>
                   <div className="text-1xl sm:text-sm md:text-lg">ONLINE LAWYER</div>
                 </div>
                 <div className="absolute top-60"><Lottie animationData={oneAnimation} /></div> 
               </div>
             </div>
             <div className="thumbnail">
-              <div className="text-white text-4xl items-center flex justify-center underline underline-offset-8 decoration-1 sm:text-5xl md:text-7xl relative">
+              <div className="text-white text-4xl items-center flex justify-center font-display underline underline-offset-8 decoration-1 sm:text-5xl md:text-7xl relative">
                 <div className="mt-40 sm:mt-20 md:mt-40 lg:mt-60 xl:mt-60">
                   BANKRUPTCY
                   <div className="absolute mb-10 right-40 w-100 h-80">
@@ -78,7 +78,7 @@ const SmoothScroll = () => {
               </div>
             </div>
             <div className="thumbnail">
-              <div className="text-white text-4xl items-center flex justify-center underline underline-offset-8 decoration-1 sm:text-5xl md:text-7xl relative">
+              <div className="text-white text-4xl items-center flex font-display justify-center underline underline-offset-8 decoration-1 sm:text-5xl md:text-7xl relative">
                 <div className="mt-40 sm:mt-20 md:mt-40 lg:mt-60 xl:mt-60">
                   COMMERCIAL DISPUTES
                 </div>
@@ -91,7 +91,7 @@ const SmoothScroll = () => {
               </div>
             </div>
             <div className="thumbnail">
-              <div className="text-white text-4xl items-center flex justify-center underline underline-offset-8 decoration-1 sm:text-5xl md:text-7xl">
+              <div className="text-white text-4xl items-center flex font-display justify-center underline underline-offset-8 decoration-1 sm:text-5xl md:text-7xl">
                 <div className="mt-40 sm:mt-20 md:mt-40 lg:mt-60 xl:mt-60">
                   CORPORATE DISPUTES
                 </div>
@@ -101,7 +101,7 @@ const SmoothScroll = () => {
               </div>
             </div>
             <div className="thumbnail">
-              <div className="text-white text-4xl items-center flex justify-center underline underline-offset-8 decoration-1 sm:text-5xl md:text-7xl relative">
+              <div className="text-white text-4xl items-center flex font-display justify-center underline underline-offset-8 decoration-1 sm:text-5xl md:text-7xl relative">
                 <div className="mt-40 sm:mt-20 md:mt-40 lg:mt-60 xl:mt-60">
                   TAX DISPUTES
                 </div>
@@ -111,7 +111,7 @@ const SmoothScroll = () => {
               </div>
             </div>
             <div className="thumbnail">
-              <div className="text-white text-4xl items-center flex justify-center underline underline-offset-8 decoration-1 sm:text-5xl md:text-7xl relative">
+              <div className="text-white text-4xl items-center flex font-display justify-center underline underline-offset-8 decoration-1 sm:text-5xl md:text-7xl relative">
                 <div className="mt-40 sm:mt-20 md:mt-40 lg:mt-60 xl:mt-60">ECONOMIC CRIME</div>
                 <div className="absolute top-55 right-80 h-40 w-40">
                 <Lottie animationData={economiclottie} />
@@ -119,7 +119,7 @@ const SmoothScroll = () => {
               </div>
             </div>
             <div className="thumbnail">
-              <div className="text-white text-4xl items-center flex justify-center sm:text-5xl md:text-7xl relative">
+              <div className="text-white text-4xl items-center flex font-display justify-center sm:text-5xl md:text-7xl relative">
                 <div className="mt-40 sm:mt-20 md:mt-40 lg:mt-60 xl:mt-60">BLOG “BANKROMAT”</div>
                 <div className="absolute w-25 lg:h-80 h-40 bottom-40">
                 <Lottie animationData={handwavelottie} />
@@ -127,7 +127,7 @@ const SmoothScroll = () => {
               </div>
             </div>
             <div className="thumbnail">
-              <div className="text-white text-2xl items-center flex justify-center text-center sm:text-2xl md:text-3xl">
+              <div className="text-white text-2xl items-center flex font-display justify-center text-center sm:text-2xl md:text-3xl">
                 <p className="mt-40 sm:mt-20 md:mt-40 lg:mt-60 xl:mt-60">
                   We stand behind the back of the <br />
                   business as it moves forward towards  <br />
@@ -139,7 +139,7 @@ const SmoothScroll = () => {
               </div>
             </div>
             <div className="thumbnail">
-            <div className="text-white text-2xl items-center flex justify-center sm:text-2xl md:text-3xl">
+            <div className="text-white text-2xl items-center flex font-display justify-center sm:text-2xl md:text-3xl">
                 <p className="mt-40 sm:mt-20 md:mt-40 lg:mt-60 xl:mt-60">
                 Our product is the search and application of <br />
                 individual legal solutions that eliminate <br />

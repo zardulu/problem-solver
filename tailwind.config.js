@@ -4,6 +4,10 @@ module.exports = {
   './public/index.html' ],
   theme: {
     extend: {},
+    fontFamily: {
+      display: ["Titillium Web", "sans-serif"],
+    },
+    
   },
   plugins: [],
 }

@@ -17,17 +17,17 @@ export default function Navbar() {
   return (
     <nav className="bg-transparent">
       <div className="max-w-7xl mx-auto">
-        <div className="flex justify-between font-semibold">
+        <div className="flex justify-between font-display">
           <Link to='/'>
-          <div className="text-xl text-white transition duration-300 ease-in-out hover:text-yellow-300">[Logo]</div>
+          <div className="text-xl text-white transition duration-300 ease-in-out hover:text-lime-400">[Logo]</div>
           </Link>
           <div className="flex">
-            <div className="text-white text-xl font-semibold hidden lg:flex space-x-6">
+            <div className="text-white text-xl  hidden lg:flex space-x-6">
               {navLinks.map(link => (
                 <Link to={`/${link.toLowerCase()}`}>
                 <button
                   key={link}
-                  className={`transition duration-300 ease-in-out hover:text-yellow-300`}
+                  className={`transition duration-300 ease-in-out hover:text-lime-400`}
                   onMouseEnter={() => setHovered(link)}
                   onMouseLeave={() => setHovered(null)}
                 >
@@ -36,12 +36,12 @@ export default function Navbar() {
                 </Link>
               ))}
             </div>
-            <div className="text-white text-xl font-semibold lg:flex space-x-6 ml-14">
+            <div className="text-white text-xl lg:flex space-x-6 ml-14">
               {additionalLinks.map(link => (
                 <Link to={`/${link.toLowerCase()}`}>
                 <button
                   key={link}
-                  className={`transition duration-300 ease-in-out hover:text-yellow-300`}
+                  className={`transition duration-300 ease-in-out hover:text-lime-400`}
                   onMouseEnter={() => setHovered(link)}
                   onMouseLeave={() => setHovered(null)}
                 >
