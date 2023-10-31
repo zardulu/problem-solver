@@ -46,3 +46,45 @@ body {
   width: 100vw;
   background-color: black;
 }
+
+
+.bm-menu {
+  background: #ffffff;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+
+
+
+.bm-burger-button {
+  position: fixed;
+  width: 30px;
+  height: 25px;
+  left: 20px;
+  top: 20px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #a2e635;
+}
+
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
